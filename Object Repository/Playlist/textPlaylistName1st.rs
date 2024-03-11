@@ -3,7 +3,7 @@
    <description></description>
    <name>textPlaylistName1st</name>
    <tag></tag>
-   <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
+   <elementGuidId>26a0e4c0-64f9-41d9-ae64-b8fe525b2460</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -12,7 +12,7 @@
       <name>class</name>
       <type>Main</type>
       <value>android.widget.TextView</value>
-      <webElementGuid>128188b6-96c5-4446-9c25-f3deafa8710e</webElementGuid>
+      <webElementGuid>1d76bf49-1bcf-4d23-86a0-884c493074bc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -20,15 +20,7 @@
       <name>index</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>84e46c0a-96b5-40ab-a393-c973bd8387d5</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Automation Test</value>
-      <webElementGuid>846fe245-0aec-49f6-ab2f-5de222d770ba</webElementGuid>
+      <webElementGuid>ed3c0991-141d-4d97-bb7b-165e396126ea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,7 +28,7 @@
       <name>resource-id</name>
       <type>Main</type>
       <value>com.google.android.apps.youtube.music:id/title</value>
-      <webElementGuid>005843b7-f3df-4ca3-a882-d9d682daaba1</webElementGuid>
+      <webElementGuid>870484bc-6d04-4f6c-98bc-6e811c146efd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -44,7 +36,7 @@
       <name>package</name>
       <type>Main</type>
       <value>com.google.android.apps.youtube.music</value>
-      <webElementGuid>ef7fb8ce-63b9-4a04-b4a4-78644b0f8698</webElementGuid>
+      <webElementGuid>775f3db7-a3e3-4517-b0f1-c5a55845ca87</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -52,7 +44,7 @@
       <name>checkable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>73eb27b5-a7dc-48bb-860b-6e8baa63d65d</webElementGuid>
+      <webElementGuid>832e81d5-e34a-4c27-8b49-b29da550169c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -60,7 +52,7 @@
       <name>checked</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>b3b7572f-57b6-4d19-b864-cbf9598c9c75</webElementGuid>
+      <webElementGuid>99182b77-af34-446b-b0f1-29d71764d11e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -68,7 +60,7 @@
       <name>clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>6d54b231-6146-45a7-9230-24b2ef86690b</webElementGuid>
+      <webElementGuid>e68d4929-b93e-4d05-9f16-e6fef78fcd66</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -76,7 +68,7 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>cddbdb38-9c9b-4b8d-b6b1-85632df871e2</webElementGuid>
+      <webElementGuid>071c7ea0-515c-4baf-ac4b-323cad959272</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -84,7 +76,7 @@
       <name>focusable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>9c98525b-9675-491a-a9e2-b2dc483453ef</webElementGuid>
+      <webElementGuid>1c897c52-f401-4549-b202-eeeed1b4e052</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -92,7 +84,7 @@
       <name>focused</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>09f5c1c4-a6ff-4679-9259-d87242afdb23</webElementGuid>
+      <webElementGuid>f9d4d76e-ed56-46a3-9c3e-31274bf3c8f0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -100,7 +92,7 @@
       <name>scrollable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>53c67ea1-2d5d-4136-9b54-db94ccc4ff2c</webElementGuid>
+      <webElementGuid>0bbb5bff-f62a-4101-b27f-71fd8e3fbc2e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -108,7 +100,7 @@
       <name>long-clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>6b1eb11c-5528-46d1-9c9c-abfbba373936</webElementGuid>
+      <webElementGuid>c5a2c1cb-fa29-43f7-a3f4-9da0fdb52ae9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -116,7 +108,7 @@
       <name>password</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>4f2dd860-1641-4caf-a5df-cb29a00f8e85</webElementGuid>
+      <webElementGuid>03b7b257-147b-4139-941e-de73124cf54c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -124,7 +116,7 @@
       <name>selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>02826275-4ce1-4029-a6d3-caa87f84c8c9</webElementGuid>
+      <webElementGuid>798285f3-8c9c-4c41-b9a1-254510d118eb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -132,7 +124,7 @@
       <name>x</name>
       <type>Main</type>
       <value>253</value>
-      <webElementGuid>cb13b8cb-0063-410e-bae3-48721a7bade3</webElementGuid>
+      <webElementGuid>a3ad19e6-4da4-4eb6-9547-2ae9d7b85853</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -140,7 +132,7 @@
       <name>y</name>
       <type>Main</type>
       <value>789</value>
-      <webElementGuid>9331f13f-4c56-45ff-ac79-06b92581d81e</webElementGuid>
+      <webElementGuid>4bf4d56c-eb08-404e-8c42-2ff367bd2bd3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -148,7 +140,7 @@
       <name>width</name>
       <type>Main</type>
       <value>678</value>
-      <webElementGuid>0c588824-42ac-45bd-a2dd-34fcc9c2e008</webElementGuid>
+      <webElementGuid>3cead6bd-13ee-4ed0-8883-f5bebcc8c782</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -156,7 +148,7 @@
       <name>height</name>
       <type>Main</type>
       <value>53</value>
-      <webElementGuid>fe528630-cd74-4294-8c2c-b2b9034c3f91</webElementGuid>
+      <webElementGuid>7ed817e7-fd0b-4bcc-b53a-e1aed6b55db3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -164,7 +156,7 @@
       <name>bounds</name>
       <type>Main</type>
       <value>[253,789][931,842]</value>
-      <webElementGuid>ba22de0d-2eda-4252-878b-436e3f58ad0a</webElementGuid>
+      <webElementGuid>8741dfe1-cb94-4bb8-9b7a-cad5f85d50f8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -172,7 +164,7 @@
       <name>displayed</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>df17fc3d-a2a3-4c53-8b69-3a7090f05327</webElementGuid>
+      <webElementGuid>0540dcd7-ff91-428a-b988-fe46de98f169</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -180,8 +172,8 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/androidx.viewpager.widget.ViewPager[1]/android.view.ViewGroup[1]/android.support.v7.widget.RecyclerView[1]/android.widget.FrameLayout[3]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[2]/android.widget.TextView[1]</value>
-      <webElementGuid>3d79b351-101e-4c00-90eb-5d5025f3a538</webElementGuid>
+      <webElementGuid>9cfc4080-e71e-479f-850e-b8861b9a6d28</webElementGuid>
    </webElementProperties>
-   <locator>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/androidx.viewpager.widget.ViewPager[1]/android.view.ViewGroup[1]/android.support.v7.widget.RecyclerView[1]/android.widget.FrameLayout[3]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[2]/android.widget.TextView[1]</locator>
+   <locator>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/androidx.viewpager.widget.ViewPager[1]/android.view.ViewGroup[1]/android.support.v7.widget.RecyclerView[1]/android.widget.FrameLayout[3]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[2]/android.widget.TextView[1][count(. | //*[@class = 'android.widget.TextView' and @index = '0' and @resource-id = 'com.google.android.apps.youtube.music:id/title' and @package = 'com.google.android.apps.youtube.music' and @checkable = 'false' and @checked = 'false' and @clickable = 'false' and @enabled = 'true' and @focusable = 'false' and @focused = 'false' and @scrollable = 'false' and @long-clickable = 'false' and @password = 'false' and @selected = 'false' and @x = '253' and @y = '789' and @width = '678' and @height = '53' and @bounds = '[253,789][931,842]' and @displayed = 'true']) = count(//*[@class = 'android.widget.TextView' and @index = '0' and @resource-id = 'com.google.android.apps.youtube.music:id/title' and @package = 'com.google.android.apps.youtube.music' and @checkable = 'false' and @checked = 'false' and @clickable = 'false' and @enabled = 'true' and @focusable = 'false' and @focused = 'false' and @scrollable = 'false' and @long-clickable = 'false' and @password = 'false' and @selected = 'false' and @x = '253' and @y = '789' and @width = '678' and @height = '53' and @bounds = '[253,789][931,842]' and @displayed = 'true'])]</locator>
    <locatorStrategy>XPATH</locatorStrategy>
 </MobileElementEntity>

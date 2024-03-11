@@ -17,9 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+Mobile.waitForElementPresent(findTestObject('Playlist/btnPlaylistInsideMenu'), 0)
+
 Mobile.pressBack()
+
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.swipe(300, 1400, 300, 1400 + 680)
 
-Mobile.verifyElementText(findTestObject('Playlist/textPlaylistName1st'), 'Automated Test')
+Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.verifyElementAttributeValue(findTestObject('Playlist/textPlaylistName1st'), 'text', 'Automated Test', 0)
 
