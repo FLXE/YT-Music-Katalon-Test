@@ -17,19 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Playlist/Step Definition/Start Application'), [:], FailureHandling.STOP_ON_FAILURE)
+Mobile.waitForElementPresent(findTestObject('Playlist/btnPlaylistInsideMenu'), 0)
 
-WebUI.callTestCase(findTestCase('Playlist/Step Definition/PLS001/User is on the Home Page'), [:], FailureHandling.STOP_ON_FAILURE)
+Mobile.pressBack()
 
-WebUI.callTestCase(findTestCase('Playlist/Step Definition/PLS001/User go to Library page'), [:], FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Playlist/Step Definition/PLS002/User tap on the playlist item menu'), [:], FailureHandling.STOP_ON_FAILURE)
+Mobile.swipe(300, 1400, 300, 1400 + 680)
 
-WebUI.callTestCase(findTestCase('Playlist/Step Definition/PLS002/User tap on Edit playlist'), [:], FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Playlist/Step Definition/PLS002/User change playlist title'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Playlist/Step Definition/PLS002/User tap on Done button'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Playlist/Step Definition/PLS002/Verify changed title'), [:], FailureHandling.STOP_ON_FAILURE)
+Mobile.verifyElementAttributeValue(findTestObject('Playlist/textPlaylistName1st'), 'text', 'Changed Title', 0)
 
