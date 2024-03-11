@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+01 Creating-Renaming-Deleting Playlist,,,,2024-03-11 15:22:48,2024-03-11 15:24:54,2m - 6.091s,PASSED
+,,,,,,,
+Test Cases/Playlist/Step Definition/Start Application,,,,2024-03-11 15:22:48,2024-03-11 15:23:09,20.941s,PASSED
+"startExistingApplication(""com.google.android.apps.youtube.music"", STOP_ON_FAILURE)",,,,2024-03-11 15:22:49,2024-03-11 15:23:09,20.259s,PASSED
+,,,,,,,
+Test Cases/Playlist/Pages/PLS001 Add new playlist,,,,2024-03-11 15:23:09,2024-03-11 15:24:09,1m - 0.230s,PASSED
+"callTestCase(findTestCase(""Playlist/Step Definition/PLS001/User is on the Home Page""), [:], STOP_ON_FAILURE)",,,,2024-03-11 15:23:10,2024-03-11 15:23:17,6.559s,PASSED
+"callTestCase(findTestCase(""Playlist/Step Definition/PLS001/User go to Library page""), [:], STOP_ON_FAILURE)",,,,2024-03-11 15:23:17,2024-03-11 15:23:20,3.780s,PASSED
+"callTestCase(findTestCase(""Playlist/Step Definition/PLS001/User tap on add new button""), [:], STOP_ON_FAILURE)",,,,2024-03-11 15:23:20,2024-03-11 15:23:23,2.362s,PASSED
+"callTestCase(findTestCase(""Playlist/Step Definition/PLS001/User tap on new Playlist""), [:], STOP_ON_FAILURE)",,,,2024-03-11 15:23:23,2024-03-11 15:23:24,1.564s,PASSED
+"callTestCase(findTestCase(""Playlist/Step Definition/PLS001/User fill new playlist name""), [:], STOP_ON_FAILURE)",,,,2024-03-11 15:23:24,2024-03-11 15:23:27,3.052s,PASSED
+"callTestCase(findTestCase(""Playlist/Step Definition/PLS001/User tap on Create button""), [:], STOP_ON_FAILURE)",,,,2024-03-11 15:23:27,2024-03-11 15:23:29,1.922s,PASSED
+"callTestCase(findTestCase(""Playlist/Step Definition/PLS001/Verify Created Playlist""), [:], STOP_ON_FAILURE)",,,,2024-03-11 15:23:29,2024-03-11 15:24:09,40.005s,PASSED
+,,,,,,,
+Test Cases/Playlist/Pages/PLS002 Rename playlist,,,,2024-03-11 15:24:09,2024-03-11 15:24:39,29.710s,PASSED
+"callTestCase(findTestCase(""Playlist/Step Definition/PLS001/User is on the Home Page""), [:], STOP_ON_FAILURE)",,,,2024-03-11 15:24:10,2024-03-11 15:24:12,1.756s,PASSED
+"callTestCase(findTestCase(""Playlist/Step Definition/PLS001/User go to Library page""), [:], STOP_ON_FAILURE)",,,,2024-03-11 15:24:12,2024-03-11 15:24:17,5.393s,PASSED
+"callTestCase(findTestCase(""Playlist/Step Definition/PLS002/User tap on the playlist item menu""), [:], STOP_ON_FAILURE)",,,,2024-03-11 15:24:17,2024-03-11 15:24:20,2.618s,PASSED
+"callTestCase(findTestCase(""Playlist/Step Definition/PLS002/User tap on Edit playlist""), [:], STOP_ON_FAILURE)",,,,2024-03-11 15:24:20,2024-03-11 15:24:21,1.186s,PASSED
+"callTestCase(findTestCase(""Playlist/Step Definition/PLS002/User change playlist title""), [:], STOP_ON_FAILURE)",,,,2024-03-11 15:24:21,2024-03-11 15:24:26,4.651s,PASSED
+"callTestCase(findTestCase(""Playlist/Step Definition/PLS002/User tap on Done button""), [:], STOP_ON_FAILURE)",,,,2024-03-11 15:24:26,2024-03-11 15:24:27,1.702s,PASSED
+"callTestCase(findTestCase(""Playlist/Step Definition/PLS002/Verify changed title""), [:], STOP_ON_FAILURE)",,,,2024-03-11 15:24:27,2024-03-11 15:24:39,11.765s,PASSED
+,,,,,,,
+Test Cases/Playlist/Pages/PLS003 Delete Playlist,,,,2024-03-11 15:24:39,2024-03-11 15:24:54,14.707s,PASSED
+"callTestCase(findTestCase(""Playlist/Step Definition/PLS001/User is on the Home Page""), [:], STOP_ON_FAILURE)",,,,2024-03-11 15:24:40,2024-03-11 15:24:42,1.854s,PASSED
+"callTestCase(findTestCase(""Playlist/Step Definition/PLS001/User go to Library page""), [:], STOP_ON_FAILURE)",,,,2024-03-11 15:24:42,2024-03-11 15:24:47,5.534s,PASSED
+"callTestCase(findTestCase(""Playlist/Step Definition/PLS002/User tap on the playlist item menu""), [:], STOP_ON_FAILURE)",,,,2024-03-11 15:24:47,2024-03-11 15:24:49,2.024s,PASSED
+"callTestCase(findTestCase(""Playlist/Step Definition/PLS003/User tap on Delete playlist""), [:], STOP_ON_FAILURE)",,,,2024-03-11 15:24:49,2024-03-11 15:24:50,1.227s,PASSED
+"callTestCase(findTestCase(""Playlist/Step Definition/PLS003/User tap on Delete to confirm deleting""), [:], STOP_ON_FAILURE)",,,,2024-03-11 15:24:50,2024-03-11 15:24:52,1.248s,PASSED
+"callTestCase(findTestCase(""Playlist/Step Definition/PLS003/Verify playlist deleted""), [:], STOP_ON_FAILURE)",,,,2024-03-11 15:24:52,2024-03-11 15:24:54,2.216s,PASSED

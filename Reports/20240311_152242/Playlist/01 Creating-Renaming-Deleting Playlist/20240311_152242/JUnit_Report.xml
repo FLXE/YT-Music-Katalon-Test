@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="01 Creating-Renaming-Deleting Playlist" time="126.091" tests="4" failures="0" errors="0">
+   <testsuite name="01 Creating-Renaming-Deleting Playlist" tests="4" failures="0" errors="0" time="126.091" skipped="0" timestamp="2024-03-11 15:22:48" hostname="wisam - DESKTOP-SE258RV" id="Test Suites/Playlist/01 Creating-Renaming-Deleting Playlist">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_x86_64 - Android 12)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\wisam\\git\\yt-music-katalon-test\\Reports\\20240311_152242\\Playlist\\01 Creating-Renaming-Deleting Playlist\\20240311_152242"/>
+         <property name="logFiles" value="C:\\Users\\wisam\\git\\yt-music-katalon-test\\Reports\\20240311_152242\\Playlist\\01 Creating-Renaming-Deleting Playlist\\20240311_152242\\appium.log, C:\\Users\\wisam\\git\\yt-music-katalon-test\\Reports\\20240311_152242\\Playlist\\01 Creating-Renaming-Deleting Playlist\\20240311_152242\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="wisam - DESKTOP-SE258RV"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="sdk_gphone64_x86_64"/>
+         <property name="hostAddress" value="192.168.1.2"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_x86_64 - Android 12)"/>
+         <property name="deviceOSVersion" value="12"/>
+      </properties>
+      <testcase name="Test Cases/Playlist/Step Definition/Start Application" time="20.941" classname="Test Cases/Playlist/Step Definition/Start Application" status="PASSED">
+         <system-out><![CDATA[2024-03-11 15:22:48 - [TEST_CASE][PASSED] - Test Cases/Playlist/Step Definition/Start Application: Test Cases/Playlist/Step Definition/Start Application
+
+2024-03-11 15:22:49 - [TEST_STEP][PASSED] - startExistingApplication("com.google.android.apps.youtube.music", STOP_ON_FAILURE): Starting app with application ID: 'com.google.android.apps.youtube.music'
+
+2024-03-11 15:22:50 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2024-03-11 15:22:52 - [MESSAGE][INFO] - Appium server started on port 51,710
+
+2024-03-11 15:23:09 - [MESSAGE][PASSED] - Starting app with application ID: 'com.google.android.apps.youtube.music']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Playlist/Pages/PLS001 Add new playlist" time="60.23" classname="Test Cases/Playlist/Pages/PLS001 Add new playlist" status="PASSED">
+         <system-out><![CDATA[2024-03-11 15:23:09 - [TEST_CASE][PASSED] - Test Cases/Playlist/Pages/PLS001 Add new playlist: Test Cases/Playlist/Pages/PLS001 Add new playlist
+
+2024-03-11 15:23:10 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Playlist/Step Definition/PLS001/User is on the Home Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Playlist/Step Definition/PLS001/User is on the Home Page' successfully
+
+2024-03-11 15:23:10 - [TEST_CASE][PASSED] - Test Cases/Playlist/Step Definition/PLS001/User is on the Home Page: Test Cases/Playlist/Step Definition/PLS001/User is on the Home Page
+
+2024-03-11 15:23:12 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Navbar/btnNavbarHome"), 0): Element 'Object Repository/Navbar/btnNavbarHome' is exist
+
+2024-03-11 15:23:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-11 15:23:15 - [MESSAGE][PASSED] - Element 'Object Repository/Navbar/btnNavbarHome' is exist
+
+2024-03-11 15:23:15 - [TEST_STEP][PASSED] - tap(findTestObject("Navbar/btnNavbarHome"), 0): Tapped on element 'Object Repository/Navbar/btnNavbarHome'
+
+2024-03-11 15:23:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-11 15:23:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Navbar/btnNavbarHome'
+
+2024-03-11 15:23:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Playlist/Step Definition/PLS001/User is on the Home Page' successfully
+
+2024-03-11 15:23:17 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Playlist/Step Definition/PLS001/User go to Library page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Playlist/Step Definition/PLS001/User go to Library page' successfully
+
+2024-03-11 15:23:17 - [TEST_CASE][PASSED] - Test Cases/Playlist/Step Definition/PLS001/User go to Library page: Test Cases/Playlist/Step Definition/PLS001/User go to Library page
+
+2024-03-11 15:23:18 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Navbar/btnNavbarLibrary"), 0): Element 'Object Repository/Navbar/btnNavbarLibrary' is exist
+
+2024-03-11 15:23:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-11 15:23:18 - [MESSAGE][PASSED] - Element 'Object Repository/Navbar/btnNavbarLibrary' is exist
+
+2024-03-11 15:23:18 - [TEST_STEP][PASSED] - tap(findTestObject("Navbar/btnNavbarLibrary"), 0): Tapped on element 'Object Repository/Navbar/btnNavbarLibrary'
+
+2024-03-11 15:23:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-11 15:23:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Navbar/btnNavbarLibrary'
+
+2024-03-11 15:23:19 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Playlist/textCategoryPlaylist"), 0): Element 'Object Repository/Playlist/textCategoryPlaylist' is present
+
+2024-03-11 15:23:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-11 15:23:20 - [MESSAGE][PASSED] - Element 'Object Repository/Playlist/textCategoryPlaylist' is present
+
+2024-03-11 15:23:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Playlist/Step Definition/PLS001/User go to Library page' successfully
+
+2024-03-11 15:23:20 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Playlist/Step Definition/PLS001/User tap on add new button"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Playlist/Step Definition/PLS001/User tap on add new button' successfully
+
+2024-03-11 15:23:21 - [TEST_CASE][PASSED] - Test Cases/Playlist/Step Definition/PLS001/User tap on add new button: Test Cases/Playlist/Step Definition/PLS001/User tap on add new button
+
+2024-03-11 15:23:21 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Playlist/btnAddNew"), 0): Element 'Object Repository/Playlist/btnAddNew' is present
+
+2024-03-11 15:23:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-11 15:23:22 - [MESSAGE][PASSED] - Element 'Object Repository/Playlist/btnAddNew' is present
+
+2024-03-11 15:23:22 - [TEST_STEP][PASSED] - tap(findTestObject("Playlist/btnAddNew"), 0): Tapped on element 'Object Repository/Playlist/btnAddNew'
+
+2024-03-11 15:23:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-11 15:23:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Playlist/btnAddNew'
+
+2024-03-11 15:23:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Playlist/Step Definition/PLS001/User tap on add new button' successfully
+
+2024-03-11 15:23:23 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Playlist/Step Definition/PLS001/User tap on new Playlist"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Playlist/Step Definition/PLS001/User tap on new Playlist' successfully
+
+2024-03-11 15:23:23 - [TEST_CASE][PASSED] - Test Cases/Playlist/Step Definition/PLS001/User tap on new Playlist: Test Cases/Playlist/Step Definition/PLS001/User tap on new Playlist
+
+2024-03-11 15:23:24 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Playlist/btnNewPlaylist"), 0): Element 'Object Repository/Playlist/btnNewPlaylist' is exist
+
+2024-03-11 15:23:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-11 15:23:24 - [MESSAGE][PASSED] - Element 'Object Repository/Playlist/btnNewPlaylist' is exist
+
+2024-03-11 15:23:24 - [TEST_STEP][PASSED] - tap(findTestObject("Playlist/btnNewPlaylist"), 0): Tapped on element 'Object Repository/Playlist/btnNewPlaylist'
+
+2024-03-11 15:23:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-11 15:23:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Playlist/btnNewPlaylist'
+
+2024-03-11 15:23:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Playlist/Step Definition/PLS001/User tap on new Playlist' successfully
+
+2024-03-11 15:23:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Playlist/Step Definition/PLS001/User fill new playlist name"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Playlist/Step Definition/PLS001/User fill new playlist name' successfully
+
+2024-03-11 15:23:24 - [TEST_CASE][PASSED] - Test Cases/Playlist/Step Definition/PLS001/User fill new playlist name: Test Cases/Playlist/Step Definition/PLS001/User fill new playlist name
+
+2024-03-11 15:23:25 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Playlist/fieldPlaylistTitle"), 0): Element 'Object Repository/Playlist/fieldPlaylistTitle' is present
+
+2024-03-11 15:23:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-11 15:23:26 - [MESSAGE][PASSED] - Element 'Object Repository/Playlist/fieldPlaylistTitle' is present
+
+2024-03-11 15:23:26 - [TEST_STEP][PASSED] - setText(findTestObject("Playlist/fieldPlaylistTitle"), "Automated Test", 0): Text 'Automated Test' has been set to element 'Object Repository/Playlist/fieldPlaylistTitle'
+
+2024-03-11 15:23:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-11 15:23:27 - [MESSAGE][PASSED] - Text 'Automated Test' has been set to element 'Object Repository/Playlist/fieldPlaylistTitle'
+
+2024-03-11 15:23:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Playlist/Step Definition/PLS001/User fill new playlist name' successfully
+
+2024-03-11 15:23:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Playlist/Step Definition/PLS001/User tap on Create button"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Playlist/Step Definition/PLS001/User tap on Create button' successfully
+
+2024-03-11 15:23:28 - [TEST_CASE][PASSED] - Test Cases/Playlist/Step Definition/PLS001/User tap on Create button: Test Cases/Playlist/Step Definition/PLS001/User tap on Create button
+
+2024-03-11 15:23:28 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Playlist/btnNewPlaylistCreate"), 0): Element 'Object Repository/Playlist/btnNewPlaylistCreate' is exist
+
+2024-03-11 15:23:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-11 15:23:29 - [MESSAGE][PASSED] - Element 'Object Repository/Playlist/btnNewPlaylistCreate' is exist
+
+2024-03-11 15:23:29 - [TEST_STEP][PASSED] - tap(findTestObject("Playlist/btnNewPlaylistCreate"), 0): Tapped on element 'Object Repository/Playlist/btnNewPlaylistCreate'
+
+2024-03-11 15:23:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-11 15:23:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Playlist/btnNewPlaylistCreate'
+
+2024-03-11 15:23:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Playlist/Step Definition/PLS001/User tap on Create button' successfully
+
+2024-03-11 15:23:29 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Playlist/Step Definition/PLS001/Verify Created Playlist"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Playlist/Step Definition/PLS001/Verify Created Playlist' successfully
+
+2024-03-11 15:23:29 - [TEST_CASE][PASSED] - Test Cases/Playlist/Step Definition/PLS001/Verify Created Playlist: Test Cases/Playlist/Step Definition/PLS001/Verify Created Playlist
+
+2024-03-11 15:23:30 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Playlist/btnPlaylistInsideMenu"), 0): Object Object Repository/Playlist/btnPlaylistInsideMenu not found
+
+2024-03-11 15:23:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-11 15:24:01 - [MESSAGE][WARNING] - Object Object Repository/Playlist/btnPlaylistInsideMenu not found
+
+2024-03-11 15:24:01 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2024-03-11 15:24:01 - [MESSAGE][PASSED] - Press back button successfully
+
+2024-03-11 15:24:01 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2024-03-11 15:24:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-03-11 15:24:02 - [TEST_STEP][PASSED] - swipe(300, 1400, 300, 1400 + 680): Swiped from 300,1,400 to 300,2,080
+
+2024-03-11 15:24:03 - [MESSAGE][PASSED] - Swiped from 300,1,400 to 300,2,080
+
+2024-03-11 15:24:03 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2024-03-11 15:24:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2024-03-11 15:24:06 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Playlist/textPlaylistName1st"), "text", "Automated Test", 0): Element 'Object Repository/Playlist/textPlaylistName1st' not found
+
+2024-03-11 15:24:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-11 15:24:09 - [MESSAGE][WARNING] - Element 'Object Repository/Playlist/textPlaylistName1st' not found
+
+2024-03-11 15:24:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Playlist/Step Definition/PLS001/Verify Created Playlist' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Playlist/Pages/PLS002 Rename playlist" time="29.71" classname="Test Cases/Playlist/Pages/PLS002 Rename playlist" status="PASSED">
+         <system-out><![CDATA[2024-03-11 15:24:09 - [TEST_CASE][PASSED] - Test Cases/Playlist/Pages/PLS002 Rename playlist: Test Cases/Playlist/Pages/PLS002 Rename playlist
+
+2024-03-11 15:24:10 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Playlist/Step Definition/PLS001/User is on the Home Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Playlist/Step Definition/PLS001/User is on the Home Page' successfully
+
+2024-03-11 15:24:10 - [TEST_CASE][PASSED] - Test Cases/Playlist/Step Definition/PLS001/User is on the Home Page: Test Cases/Playlist/Step Definition/PLS001/User is on the Home Page
+
+2024-03-11 15:24:10 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Navbar/btnNavbarHome"), 0): Element 'Object Repository/Navbar/btnNavbarHome' is exist
+
+2024-03-11 15:24:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-11 15:24:11 - [MESSAGE][PASSED] - Element 'Object Repository/Navbar/btnNavbarHome' is exist
+
+2024-03-11 15:24:11 - [TEST_STEP][PASSED] - tap(findTestObject("Navbar/btnNavbarHome"), 0): Tapped on element 'Object Repository/Navbar/btnNavbarHome'
+
+2024-03-11 15:24:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-11 15:24:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Navbar/btnNavbarHome'
+
+2024-03-11 15:24:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Playlist/Step Definition/PLS001/User is on the Home Page' successfully
+
+2024-03-11 15:24:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Playlist/Step Definition/PLS001/User go to Library page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Playlist/Step Definition/PLS001/User go to Library page' successfully
+
+2024-03-11 15:24:12 - [TEST_CASE][PASSED] - Test Cases/Playlist/Step Definition/PLS001/User go to Library page: Test Cases/Playlist/Step Definition/PLS001/User go to Library page
+
+2024-03-11 15:24:12 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Navbar/btnNavbarLibrary"), 0): Element 'Object Repository/Navbar/btnNavbarLibrary' is exist
+
+2024-03-11 15:24:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-11 15:24:15 - [MESSAGE][PASSED] - Element 'Object Repository/Navbar/btnNavbarLibrary' is exist
+
+2024-03-11 15:24:15 - [TEST_STEP][PASSED] - tap(findTestObject("Navbar/btnNavbarLibrary"), 0): Tapped on element 'Object Repository/Navbar/btnNavbarLibrary'
+
+2024-03-11 15:24:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-11 15:24:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Navbar/btnNavbarLibrary'
+
+2024-03-11 15:24:16 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Playlist/textCategoryPlaylist"), 0): Element 'Object Repository/Playlist/textCategoryPlaylist' is present
+
+2024-03-11 15:24:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-11 15:24:17 - [MESSAGE][PASSED] - Element 'Object Repository/Playlist/textCategoryPlaylist' is present
+
+2024-03-11 15:24:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Playlist/Step Definition/PLS001/User go to Library page' successfully
+
+2024-03-11 15:24:17 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Playlist/Step Definition/PLS002/User tap on the playlist item menu"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Playlist/Step Definition/PLS002/User tap on the playlist item menu' successfully
+
+2024-03-11 15:24:17 - [TEST_CASE][PASSED] - Test Cases/Playlist/Step Definition/PLS002/User tap on the playlist item menu: Test Cases/Playlist/Step Definition/PLS002/User tap on the playlist item menu
+
+2024-03-11 15:24:18 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Playlist/btnMenuPlaylist1st"), 0): Element 'Object Repository/Playlist/btnMenuPlaylist1st' is present
+
+2024-03-11 15:24:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-11 15:24:18 - [MESSAGE][PASSED] - Element 'Object Repository/Playlist/btnMenuPlaylist1st' is present
+
+2024-03-11 15:24:18 - [TEST_STEP][PASSED] - tap(findTestObject("Playlist/btnMenuPlaylist1st"), 0): Tapped on element 'Object Repository/Playlist/btnMenuPlaylist1st'
+
+2024-03-11 15:24:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-11 15:24:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Playlist/btnMenuPlaylist1st'
+
+2024-03-11 15:24:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Playlist/Step Definition/PLS002/User tap on the playlist item menu' successfully
+
+2024-03-11 15:24:20 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Playlist/Step Definition/PLS002/User tap on Edit playlist"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Playlist/Step Definition/PLS002/User tap on Edit playlist' successfully
+
+2024-03-11 15:24:20 - [TEST_CASE][PASSED] - Test Cases/Playlist/Step Definition/PLS002/User tap on Edit playlist: Test Cases/Playlist/Step Definition/PLS002/User tap on Edit playlist
+
+2024-03-11 15:24:20 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Playlist/btnPlaylistMenuEdit"), 0): Element 'Object Repository/Playlist/btnPlaylistMenuEdit' is present
+
+2024-03-11 15:24:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-11 15:24:21 - [MESSAGE][PASSED] - Element 'Object Repository/Playlist/btnPlaylistMenuEdit' is present
+
+2024-03-11 15:24:21 - [TEST_STEP][PASSED] - tap(findTestObject("Playlist/btnPlaylistMenuEdit"), 0): Tapped on element 'Object Repository/Playlist/btnPlaylistMenuEdit'
+
+2024-03-11 15:24:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-11 15:24:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Playlist/btnPlaylistMenuEdit'
+
+2024-03-11 15:24:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Playlist/Step Definition/PLS002/User tap on Edit playlist' successfully
+
+2024-03-11 15:24:21 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Playlist/Step Definition/PLS002/User change playlist title"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Playlist/Step Definition/PLS002/User change playlist title' successfully
+
+2024-03-11 15:24:21 - [TEST_CASE][PASSED] - Test Cases/Playlist/Step Definition/PLS002/User change playlist title: Test Cases/Playlist/Step Definition/PLS002/User change playlist title
+
+2024-03-11 15:24:22 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Playlist/fieldEditPlaylistTitle"), 0): Element 'Object Repository/Playlist/fieldEditPlaylistTitle' is present
+
+2024-03-11 15:24:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-11 15:24:24 - [MESSAGE][PASSED] - Element 'Object Repository/Playlist/fieldEditPlaylistTitle' is present
+
+2024-03-11 15:24:24 - [TEST_STEP][PASSED] - setText(findTestObject("Playlist/fieldEditPlaylistTitle"), "Changed Title", 0): Text 'Changed Title' has been set to element 'Object Repository/Playlist/fieldEditPlaylistTitle'
+
+2024-03-11 15:24:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-11 15:24:26 - [MESSAGE][PASSED] - Text 'Changed Title' has been set to element 'Object Repository/Playlist/fieldEditPlaylistTitle'
+
+2024-03-11 15:24:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Playlist/Step Definition/PLS002/User change playlist title' successfully
+
+2024-03-11 15:24:26 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Playlist/Step Definition/PLS002/User tap on Done button"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Playlist/Step Definition/PLS002/User tap on Done button' successfully
+
+2024-03-11 15:24:26 - [TEST_CASE][PASSED] - Test Cases/Playlist/Step Definition/PLS002/User tap on Done button: Test Cases/Playlist/Step Definition/PLS002/User tap on Done button
+
+2024-03-11 15:24:26 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Playlist/btnEditDone"), 0): Element 'Object Repository/Playlist/btnEditDone' is exist
+
+2024-03-11 15:24:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-11 15:24:27 - [MESSAGE][PASSED] - Element 'Object Repository/Playlist/btnEditDone' is exist
+
+2024-03-11 15:24:27 - [TEST_STEP][PASSED] - tap(findTestObject("Playlist/btnEditDone"), 0): Tapped on element 'Object Repository/Playlist/btnEditDone'
+
+2024-03-11 15:24:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-11 15:24:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Playlist/btnEditDone'
+
+2024-03-11 15:24:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Playlist/Step Definition/PLS002/User tap on Done button' successfully
+
+2024-03-11 15:24:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Playlist/Step Definition/PLS002/Verify changed title"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Playlist/Step Definition/PLS002/Verify changed title' successfully
+
+2024-03-11 15:24:27 - [TEST_CASE][PASSED] - Test Cases/Playlist/Step Definition/PLS002/Verify changed title: Test Cases/Playlist/Step Definition/PLS002/Verify changed title
+
+2024-03-11 15:24:28 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Playlist/btnPlaylistInsideMenu"), 0): Element 'Object Repository/Playlist/btnPlaylistInsideMenu' is present
+
+2024-03-11 15:24:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-11 15:24:31 - [MESSAGE][PASSED] - Element 'Object Repository/Playlist/btnPlaylistInsideMenu' is present
+
+2024-03-11 15:24:31 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2024-03-11 15:24:31 - [MESSAGE][PASSED] - Press back button successfully
+
+2024-03-11 15:24:31 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2024-03-11 15:24:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-03-11 15:24:32 - [TEST_STEP][PASSED] - swipe(300, 1400, 300, 1400 + 680): Swiped from 300,1,400 to 300,2,080
+
+2024-03-11 15:24:33 - [MESSAGE][PASSED] - Swiped from 300,1,400 to 300,2,080
+
+2024-03-11 15:24:33 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2024-03-11 15:24:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2024-03-11 15:24:36 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Playlist/textPlaylistName1st"), "text", "Changed Title", 0): Element 'Object Repository/Playlist/textPlaylistName1st' not found
+
+2024-03-11 15:24:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-11 15:24:39 - [MESSAGE][WARNING] - Element 'Object Repository/Playlist/textPlaylistName1st' not found
+
+2024-03-11 15:24:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Playlist/Step Definition/PLS002/Verify changed title' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Playlist/Pages/PLS003 Delete Playlist" time="14.707" classname="Test Cases/Playlist/Pages/PLS003 Delete Playlist" status="PASSED">
+         <system-out><![CDATA[2024-03-11 15:24:39 - [TEST_CASE][PASSED] - Test Cases/Playlist/Pages/PLS003 Delete Playlist: Test Cases/Playlist/Pages/PLS003 Delete Playlist
+
+2024-03-11 15:24:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Playlist/Step Definition/PLS001/User is on the Home Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Playlist/Step Definition/PLS001/User is on the Home Page' successfully
+
+2024-03-11 15:24:40 - [TEST_CASE][PASSED] - Test Cases/Playlist/Step Definition/PLS001/User is on the Home Page: Test Cases/Playlist/Step Definition/PLS001/User is on the Home Page
+
+2024-03-11 15:24:40 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Navbar/btnNavbarHome"), 0): Element 'Object Repository/Navbar/btnNavbarHome' is exist
+
+2024-03-11 15:24:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-11 15:24:41 - [MESSAGE][PASSED] - Element 'Object Repository/Navbar/btnNavbarHome' is exist
+
+2024-03-11 15:24:41 - [TEST_STEP][PASSED] - tap(findTestObject("Navbar/btnNavbarHome"), 0): Tapped on element 'Object Repository/Navbar/btnNavbarHome'
+
+2024-03-11 15:24:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-11 15:24:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Navbar/btnNavbarHome'
+
+2024-03-11 15:24:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Playlist/Step Definition/PLS001/User is on the Home Page' successfully
+
+2024-03-11 15:24:42 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Playlist/Step Definition/PLS001/User go to Library page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Playlist/Step Definition/PLS001/User go to Library page' successfully
+
+2024-03-11 15:24:42 - [TEST_CASE][PASSED] - Test Cases/Playlist/Step Definition/PLS001/User go to Library page: Test Cases/Playlist/Step Definition/PLS001/User go to Library page
+
+2024-03-11 15:24:42 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Navbar/btnNavbarLibrary"), 0): Element 'Object Repository/Navbar/btnNavbarLibrary' is exist
+
+2024-03-11 15:24:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-11 15:24:45 - [MESSAGE][PASSED] - Element 'Object Repository/Navbar/btnNavbarLibrary' is exist
+
+2024-03-11 15:24:45 - [TEST_STEP][PASSED] - tap(findTestObject("Navbar/btnNavbarLibrary"), 0): Tapped on element 'Object Repository/Navbar/btnNavbarLibrary'
+
+2024-03-11 15:24:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-11 15:24:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Navbar/btnNavbarLibrary'
+
+2024-03-11 15:24:46 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Playlist/textCategoryPlaylist"), 0): Element 'Object Repository/Playlist/textCategoryPlaylist' is present
+
+2024-03-11 15:24:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-11 15:24:47 - [MESSAGE][PASSED] - Element 'Object Repository/Playlist/textCategoryPlaylist' is present
+
+2024-03-11 15:24:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Playlist/Step Definition/PLS001/User go to Library page' successfully
+
+2024-03-11 15:24:47 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Playlist/Step Definition/PLS002/User tap on the playlist item menu"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Playlist/Step Definition/PLS002/User tap on the playlist item menu' successfully
+
+2024-03-11 15:24:47 - [TEST_CASE][PASSED] - Test Cases/Playlist/Step Definition/PLS002/User tap on the playlist item menu: Test Cases/Playlist/Step Definition/PLS002/User tap on the playlist item menu
+
+2024-03-11 15:24:47 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Playlist/btnMenuPlaylist1st"), 0): Element 'Object Repository/Playlist/btnMenuPlaylist1st' is present
+
+2024-03-11 15:24:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-11 15:24:48 - [MESSAGE][PASSED] - Element 'Object Repository/Playlist/btnMenuPlaylist1st' is present
+
+2024-03-11 15:24:48 - [TEST_STEP][PASSED] - tap(findTestObject("Playlist/btnMenuPlaylist1st"), 0): Tapped on element 'Object Repository/Playlist/btnMenuPlaylist1st'
+
+2024-03-11 15:24:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-11 15:24:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Playlist/btnMenuPlaylist1st'
+
+2024-03-11 15:24:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Playlist/Step Definition/PLS002/User tap on the playlist item menu' successfully
+
+2024-03-11 15:24:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Playlist/Step Definition/PLS003/User tap on Delete playlist"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Playlist/Step Definition/PLS003/User tap on Delete playlist' successfully
+
+2024-03-11 15:24:49 - [TEST_CASE][PASSED] - Test Cases/Playlist/Step Definition/PLS003/User tap on Delete playlist: Test Cases/Playlist/Step Definition/PLS003/User tap on Delete playlist
+
+2024-03-11 15:24:50 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Playlist/btnPlaylistMenuDelete"), 0): Element 'Object Repository/Playlist/btnPlaylistMenuDelete' is present
+
+2024-03-11 15:24:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-11 15:24:50 - [MESSAGE][PASSED] - Element 'Object Repository/Playlist/btnPlaylistMenuDelete' is present
+
+2024-03-11 15:24:50 - [TEST_STEP][PASSED] - tap(findTestObject("Playlist/btnPlaylistMenuDelete"), 0): Tapped on element 'Object Repository/Playlist/btnPlaylistMenuDelete'
+
+2024-03-11 15:24:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-11 15:24:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Playlist/btnPlaylistMenuDelete'
+
+2024-03-11 15:24:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Playlist/Step Definition/PLS003/User tap on Delete playlist' successfully
+
+2024-03-11 15:24:50 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Playlist/Step Definition/PLS003/User tap on Delete to confirm deleting"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Playlist/Step Definition/PLS003/User tap on Delete to confirm deleting' successfully
+
+2024-03-11 15:24:50 - [TEST_CASE][PASSED] - Test Cases/Playlist/Step Definition/PLS003/User tap on Delete to confirm deleting: Test Cases/Playlist/Step Definition/PLS003/User tap on Delete to confirm deleting
+
+2024-03-11 15:24:51 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Playlist/btnPlaylistDeleteDelete"), 0): Element 'Object Repository/Playlist/btnPlaylistDeleteDelete' is present
+
+2024-03-11 15:24:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-11 15:24:51 - [MESSAGE][PASSED] - Element 'Object Repository/Playlist/btnPlaylistDeleteDelete' is present
+
+2024-03-11 15:24:51 - [TEST_STEP][PASSED] - tap(findTestObject("Playlist/btnPlaylistDeleteDelete"), 0): Tapped on element 'Object Repository/Playlist/btnPlaylistDeleteDelete'
+
+2024-03-11 15:24:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-11 15:24:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Playlist/btnPlaylistDeleteDelete'
+
+2024-03-11 15:24:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Playlist/Step Definition/PLS003/User tap on Delete to confirm deleting' successfully
+
+2024-03-11 15:24:52 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Playlist/Step Definition/PLS003/Verify playlist deleted"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Playlist/Step Definition/PLS003/Verify playlist deleted' successfully
+
+2024-03-11 15:24:52 - [TEST_CASE][PASSED] - Test Cases/Playlist/Step Definition/PLS003/Verify playlist deleted: Test Cases/Playlist/Step Definition/PLS003/Verify playlist deleted
+
+2024-03-11 15:24:52 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Playlist/toastPlaylistDeleted"), 0): Element 'Object Repository/Playlist/toastPlaylistDeleted' is present
+
+2024-03-11 15:24:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-03-11 15:24:54 - [MESSAGE][PASSED] - Element 'Object Repository/Playlist/toastPlaylistDeleted' is present
+
+2024-03-11 15:24:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Playlist/Step Definition/PLS003/Verify playlist deleted' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-03-11 15:22:48 - [TEST_SUITE][PASSED] - 01 Creating-Renaming-Deleting Playlist: Test Cases/Playlist/Pages/PLS003 Delete Playlist]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
